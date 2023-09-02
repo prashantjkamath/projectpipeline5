@@ -22,7 +22,7 @@ node {
     stage('Image Push') {
         
         docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-            app.push("${env.BUILD_NUMBER}")
+            app.push("${env.BUILD_NUMBER}")                                                            //env.BUIILD_NUMBER is a standard defined variable in jenkins job. Yo need not define this//
         }
     }
     
