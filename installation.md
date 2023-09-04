@@ -1,15 +1,16 @@
-========================================== Install git ==================================
+========================= Install git ==================================
 
 sudo apt install git
 
-=========================================== Install Docker ==============================
+======================== Install Docker ==============================
 
 sudo apt update
 sudo apt install docker.io
 
 sudo usermod -aG docker $USER
-   
-========================================= Jenkins Installation ======================:
+
+========================= Jenkins Installation ======================:
+
 Install Java   //Jenkins Require Java to run for installations.//
 
 1) sudo apt update
@@ -38,7 +39,9 @@ Get the administrator password and login using admin account. Change the passwor
 
 
 
-=============================================Install the required plugins in Jenkins ==================================
+================Install the required plugins in Jenkins ==============
+
+
 Install the plugin from Manage Jenkins --> plugin --> Available plugins
 
 Git plugin
