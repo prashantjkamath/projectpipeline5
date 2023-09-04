@@ -57,6 +57,7 @@ http://<public-ip>:8080/restart
 
 
 ================== Installation of Argo CD using operators ========================
+
 Goto 
 https://operatorhub.io/
 Search for Argo CD and Install on Kubernetes cluster.
